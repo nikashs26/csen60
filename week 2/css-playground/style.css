@@ -6,7 +6,29 @@ Order of precedence
 
 Caveat: !Important will override any presedence
  */
+
+/*html tag selector*/
+html{
+    font-family: Arial, sans-serif;
+}
+body
+{
+    background-color: skyblue;
+}
 p{
-    color: purple !important;
-    background-color: orange;
+    color: purple;
+    
+}
+
+.middle-p 
+{
+    color: #F15025;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*id selection*/
+#main-text
+{
+    line-height: 30px;
 }
