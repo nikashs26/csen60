@@ -1,0 +1,34 @@
+/*
+Order of precedence
+1. Inline styles
+2. Internal Styles
+3. External Styles
+
+Caveat: !Important will override any presedence
+ */
+
+/*html tag selector*/
+html{
+    font-family: Arial, sans-serif;
+}
+body
+{
+    background-color: skyblue;
+}
+p{
+    color: purple;
+    
+}
+
+.middle-p 
+{
+    color: #F15025;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*id selection*/
+#main-text
+{
+    line-height: 30px;
+}
