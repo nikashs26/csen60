@@ -4,7 +4,10 @@
     display: inline;
 }*/
 /*The modern way of doing horizontal layout*/
-
+main{
+    
+    text-align: center;
+}
 ul {
     display: flex;
     flex-direction: row; /*by default, flex has flex direcrion row*/
@@ -12,11 +15,22 @@ ul {
     gap: 16px;
 }
 
-header, footer{
+
+header{
     display: flex;
     justify-content: space-between;
-}
+    
 
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    grid-area: footer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
 button{
     padding: .4rem 1rem;
     background-color: #f8f9fa;
