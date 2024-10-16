@@ -1,0 +1,74 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+h1{
+    color:darkblue;
+}
+
+time{
+    color:gray;
+}
+#profile{
+    border-radius: 50%;
+    margin-left: -1rem;
+    margin-top: 50%;
+}
+#github{
+    margin-left: -2.3rem;
+    margin-top: .2rem;
+}
+#twitter
+{
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+#linkedin{
+    margin-left: 1rem;
+}
+    
+
+aside{
+    display: flex;
+    
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+
+    background-color: var(--accent-background);
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+article{
+    display: block;
+    margin-left:40%;
+    margin-top: -55%;
+    margin-right: 4rem;
+    
+
+}
+
+aside ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+nav, nav ul, nav ul li, nav ul li a{
+    background-color: white;
+    
+}
+
+#primary{
+    color:#54a0ff;
+}
+
+#secondary{
+    color: lightgray;
+}

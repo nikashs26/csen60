@@ -1,0 +1,47 @@
+header {
+  --accent-background: #54a0ff;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-background);
+  
+  border-bottom-color: var(--accent-background);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 0.125rem solid var(--accent-background);
+
+  list-style: none;
+  
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article{
+  
+  flex: 0 0 30%;
+  
+  min-width: 40ch;
+  max-width: 60ch;
+}
+input[type="search"] 
+{
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border-color: lightgray;
+  padding: 0.5rem;
+  margin-top: 3.3rem;
+  margin-right: 1rem;
+}
+
+article h1 a {
+  text-decoration: none;
+  color: var(--accent-background);
+  
+}
+
