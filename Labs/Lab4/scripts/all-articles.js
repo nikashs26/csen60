@@ -7,6 +7,8 @@ const tagLists = Array.from(document.querySelectorAll("article .tags"));
 
 // Search Functions
 
+/**This is called by main and checks if there is null term and if so it adds a tag.
+It then iterates through all tags and adds them as search terms.*/
 function initializeSearch(newParentElement) {
   const params = new URLSearchParams(window.location.search);
   if (newParentElement === null) {
@@ -24,7 +26,13 @@ function initializeSearch(newParentElement) {
   console.log("initialize search is running");
 }
 
-
+/** First checks if the search tag's length is 0, in which case it iterates through
+ * all articles with a variable and removes all hidden tags from their class lists.
+ * Then it makes a new array of articles and sets tags to those. With that, it iterates through
+ * a the set of articles and checks if any of them have the text the user inputted as
+ * a tag. If not, it will hide the article. Otherwise, it will remove the hidden feature from the article
+ * and display it.
+ */
 function hideArticles() {
   if (searchTags.length === 0) {
     for (const article of document.querySelectorAll("article")) {
@@ -48,7 +56,7 @@ function hideArticles() {
    */
   // write your code here
 
-
+  
   for (const article of document.querySelectorAll("article"))
   {
     console.log(article);
@@ -108,6 +116,10 @@ function createTag(text) {
   return button;
 }
 
+/**
+ * Iterates through all articles and checks to see if any of them has text in a tag that contains
+ * what the user has entered, not case sensitive. 
+ */
 function findArticlesWithTag(phrase) {
   const articles = [];
   const sanitizedPhrase = phrase.toLowerCase().trim();
@@ -125,7 +137,10 @@ function findArticlesWithTag(phrase) {
   return articles;
 }
 
-
+/**
+ * Adds a tag of user inputted text to page, the text with which it searches the article tags
+ * to find matches
+ */
 function addSearchTerm(text) {
   parentElement.appendChild(createTag(text));
   searchTags.push(text);
@@ -136,7 +151,11 @@ function addSearchTerm(text) {
 }
 
 // Handlers
-
+/**
+ * Creates a user input variable whose value is taken as an argument to the add search
+ * term function. It then sets the input value to an empty string so the search bar can be freed up after
+ * enter is clicked to find articles.
+ */
 function onSearch(event) {
   const input = event.currentTarget;
   /**
@@ -157,6 +176,9 @@ function onSearch(event) {
 
 // Main function
 
+/**
+ * Runs initialize search and detects input and key pressing for the search bar
+ */
 function main() {
   initializeSearch(document.querySelector("#searched-tags"));
 
