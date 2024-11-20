@@ -94,3 +94,39 @@
 - Generally considered legally binding
 - Written in dense legal language
 - Users may not pay attention
+
+## Digital Certificate
+- The contents of a server's digital certificate include:
+    - Public key
+    - effective date
+### Digital Authority
+- Trusted third party organization or company that issues the certificates
+
+## Advertising/Ad Tracking
+- Companies can use you as a "product" to sell to advertising companies when you get their product for free
+
+
+## Behavior Logging
+- Any action a user takes on a webpage can be logged
+- HTML event listeners
+    - Clicks
+    - Hovers
+- Time between actions
+    - How long you spend looking at a post
+    - If you skip an ad and where in the ad did you skip
+
+## Data Applications
+- Based on user action, data can be gained by companies for future ads for any consumer
+
+## Sensitive Info
+- Personally identifiable information (PII)
+    - Anything related to a user like name, email, and phone
+- Financial info like bank accounts and credit cards
+- Legally sensitive info
+    - HIPAA
+    - FERPA
+    - COPPA
+
+## Legal Responsibility
+- Privacy has legal implication
+- Developer responsible for breaches
