@@ -70,10 +70,60 @@
 - Undertsanding CSS classes
 - Hosting server
 
-- Solutions: use InnerHTML (not the best practice since cross-site hacking can happen)
+## Solutions: use InnerHTML (not the best practice since cross-site hacking can happen)
 - use multiple files
 - Googling things
 - correct script file sourcing
 - Trial and error, especially with margins
+
+
+## Nike
+### Overview
+- Web Techs: Tailwind, React, NextJS, HTML, CSS, JS
+- Work split: Jason build and styled cart page and set up JS for cart and product pages, Kyle built and styled home page + more
+### Best Practices
+- Googling, SOF, ChatGPT, Tailwind Extension
+### Challenges
+- Using Tailwind for the first time
+- Neon Database and Vercel Server
+- Styling cart page
+### Solutions
+- Learning syntax of Tailwind
+- Reading through Vercel and Neon docs, watching YT, console.log(...), etc.
+- Tailwind Extension
+- Google/ChatGPT
+
+### Learnings
+- Kyle: Web techs are constantly elolving,organization is important to projects especially when they start to scale up, devtools is a strong tool to use for testing
+- Jason: Use Tailwind, googling is your friend, do what works best for you to get something done
+
+
+
+## Reddit
+### Overview
+- Web Techs: HTML, CSS, JS
+- Work split: Jack made home page and some functionalities, Araceli made post page and carousel and other functionalities
+
+### Best Practices
+- Hierarchy Layout w/ semantic elements
+- Comment notes
+- Use separate branches
+- Inspecting (devtools) Reddit's site
+### Challenges
+- Overuse of classes and id's
+- Creating and styling pages
+- Carousel
+### Solutions
+- Organize comments in CSS
+- Use phrase search
+- W3 schools
+- Google/ChatGPT/YT
+- For carousel, using event listener
+
+### Learnings
+- Jack: CSS->JS->HTML linking/collaboration, teamwork on GitHub, terminal
+
+- Araceli: Learning how to push and pull and merge, creating comments using JS + how to use JS overall
+
 
 
