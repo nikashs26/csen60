@@ -125,5 +125,57 @@
 
 - Araceli: Learning how to push and pull and merge, creating comments using JS + how to use JS overall
 
+## Bluey
+### Overview
+- Web Techs: HTML, CSS, JS
+- Pages implemented: Home Page, Characters, Socks, Quiz
+- Work split: Nishi did home page, Dani did characters, Ava did Socks, Isa did quiz
+- Functionalities: popups, scroll features, sound-on-click feature
+### Best Practices
+- ChatGPT, YT, Mozilla Docs, W3 Schools, Google
+### Challenges
+- Merging pull requests/creating issues
+- Resolving issues
+### Solutions
+- Break things down and google problems
+- Create pull requests from up-to-date branches for no conflicts
+- Practice
+
+### Learnings
+- Isa: Hands on experience with HTML, CSS, and JS
+- Ava: CSS familiarity and devtools use
+- Dani: Organizing code neatly 
+- Nishi: VSCode/research? Missed it
+
+
+
+
+## Pinterest
+### Overview
+- Web Techs: HTML, CSS, JS
+- Pages implemented: All pins, profile page, pin details
+- Functinonalities: Saving pin to folder, profile button, and few more
+- Work split: Yue did profile page, Averie did all pins page, and Bella did pin details
+
+### Best Practices
+- HTMl heirarchy (elements and box method) Storing cookies, CSS (z-index and framing)
+### Challenges
+- Overestimating what would be doable
+- Setting up cookies and the server
+- Time management/communication
+- Merge conflicts
+- Code compatibility
+- Different screen sizes
+- CSS replication
+### Solutions
+- Focusing on main functionalities
+- Using online resources
+- Setting up meetings with professor
+### Learnings
+- Yue: Begin with most basic requirements before getting to the more complex stuff
+- Averie: Working with different webpages and layouts, working on branches
+- Bella: HTML and the like
+
+
 
 
